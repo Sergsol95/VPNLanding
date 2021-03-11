@@ -1,0 +1,24 @@
+@import "./src/styles/fonts";
+@import "./src/styles/variables";
+*{box-sizing: border-box;}
+
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: $white;
+    
+}
+
+@import "./src/styles/header";
+@import "./src/styles/btn";
+@import "./src/styles/promo";
+@import "./src/styles/info";
+@import "./src/styles/features";
+@import "./src/styles/card";
+@import "./src/styles/plan";
+@import "./src/styles/locations";
+@import "./src/styles/footer";
+@import "./src/styles/subscribe";
+@import "./src/styles/reviews";

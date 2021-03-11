@@ -1,0 +1,58 @@
+.header {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+
+
+    &__container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        margin-right: 158px;
+    }
+
+    &__logo-img {
+        margin-right: 10px;
+        height: 35px;
+    }
+
+    &__logo-title {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    &__title-vpn {
+        font-weight: 600;
+    }
+
+    &__nav {
+        display: flex;
+        margin-right: 150px;
+    }
+
+    &__nav-item {
+
+        &:not(:last-child) {
+            margin-right: 40px;
+        }
+    }
+
+    &__nav-item-link {
+        text-decoration: none;
+        color: $lightblack
+    }
+
+    &__buttons {
+        display: flex;
+        align-items: center;
+    }
+}

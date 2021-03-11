@@ -1,0 +1,54 @@
+.locations {
+    padding-top: 75px;
+
+    display: flex;
+    justify-content: center;
+    background: $backwhite;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 155px;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 50px;
+        max-width: 384px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__description {
+        max-width: 555px;
+        text-align: center;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        margin-top: 6px;
+    }
+
+    &__list-img {
+        &:not(:nth-child(3)) {
+            margin-right: 48px;
+        }
+
+        &:nth-child(2) {
+            margin: 0;
+        }
+
+        &:last-child {
+            margin: 0;
+        }
+
+    }
+}

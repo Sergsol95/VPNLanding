@@ -1,0 +1,56 @@
+.subscribe {
+    display: flex;
+    justify-content: center;
+    height: 233px;
+    border-radius: 10px;
+    background: $white;
+
+    &_footer {
+        position: absolute;
+        top: 0;
+        right: 50%;
+        background: $white;
+        transform: translateY(-50%) translateX(50%);
+        width: 100%;
+
+        &::before {
+            content: "";
+            width: 1080px;
+            height: 189px;
+            border-radius: 10px;
+
+            background: rgba($black, 0.06);
+            filter: blur(30px);
+
+            position: absolute;
+            z-index: -1;
+            bottom: -42px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    &__container {
+        display: flex;
+        padding: 58px 70px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    &__description {
+        max-width: 360px;
+    }
+
+    &__title {
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        color: $lightblack;
+    }
+}
